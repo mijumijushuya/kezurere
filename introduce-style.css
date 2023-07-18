@@ -1,0 +1,277 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+html {
+    font-size: 100%;
+}
+
+/* ハイライト */
+p .add1 {
+    background: linear-gradient(transparent 40%, rgb(255, 102, 0))
+}
+p .add2 {
+    background: linear-gradient(transparent 40%, rgb(255, 251, 0))
+}
+/* ハイライト */
+
+/* 見出しの背景 */
+#village{
+    background-image: url(../images/IMG_4651.JPG);
+    background-size: 1500px;
+    background-position:center;
+    height: 750px;
+    margin-bottom: 70px;
+    opacity: 0.8;
+}
+/* 見出しの背景 */
+
+/* 大阪工業大学のロゴ */
+.logo {
+    width: 180px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color:white;
+    opacity: 0.6;
+}
+/* 大阪工業大学のロゴ */
+
+/* フッター */
+footer {
+    background: #432;
+    text-align: center;
+    padding: 26px 0;
+}
+
+footer p {
+    color: #fff;
+    font-size: 0.875rem;
+}
+/* フッター */
+
+/* main全体 */
+.midashi {
+    margin-top: 13.0cm;
+    margin-left: 19.0cm;
+
+}
+/* main全体 */
+
+/* 見出し的なもの */
+.hyoshi{
+    color: #fff;
+    font-size: 4.0rem;
+    font-family: "Noto Serif Japanese","Yu Mincho","YuMincho",serif;
+}
+
+.hyoshi2{
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: "Noto Serif Japanese","Yu Mincho","YuMincho",serif;
+    display: inline-block;
+    border-bottom: 2px #fff solid ;
+}
+/* 見出し的なもの */
+
+/* 見出しの下 */
+
+.naiyou {
+    display: flex;
+}
+
+.yeah {
+    border: 1.5px solid black;
+    writing-mode: vertical-lr;
+    padding-left: 11.5px;
+    padding-top: 25px;
+    height: 300px;
+    width: 60px;
+    font-size: 1.4rem;
+    font-family: "Noto Serif Japanese","Yu Mincho","YuMincho",serif;
+    margin-left: 50px;
+    margin-top: -25px;
+    border-radius: 10px;
+    
+}
+
+/* 取り組みの写真 */
+
+.toriku {
+    width: 280px;
+    height: 280px;
+    margin-left: 45px;
+    border-radius: 10px;
+}
+
+/* 取り組みの写真の下の文章 */
+
+.bun {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.toriku1 {
+    width: 300px;
+    height: 150px;
+    font-size: 1.2rem;
+}
+
+.toriku2 {
+    width: 300px;
+    height: 150px;
+    font-size: 1.2rem;;
+    margin-left: 30px;
+}
+
+.toriku3 {
+    width: 300px;
+    height: 150px;
+    font-size: 1.2rem;
+    margin-left: 30px;
+}
+
+.toriku4 {
+    width: 300px;
+    height: 150px;
+    font-size: 1.2rem;
+    margin-left: 25px;
+}
+/* 見出しの下 */
+
+/* なぜ吉野杉の廃材を */
+.midashi2 {
+    font-family: "Noto Serif Japanese","Yu Mincho","YuMincho",serif;
+    border-bottom: black 2px solid;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgb(228, 228, 228);
+}
+
+.point15{
+    margin-bottom: 50px;
+    width: 1200px;
+    margin-left: 140px;
+}
+
+.riko {
+    font-size: 1.2rem;
+    margin-left: -80px;
+    font-family: "Noto Serif Japanese","Yu Mincho","YuMincho",serif;
+}
+
+.riko1 {
+    font-family: "Noto Serif Japanese","Yu Mincho","YuMincho",serif;
+    font-size: 1.5rem;
+    background-color: rgb(101, 151, 201);
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.fire{
+    margin-top: 25px;
+    margin-left: 350px;
+}
+/* なぜ吉野杉の廃材を */
+
+/* 枕とお香を作ってみると */
+.shohin{
+    display: flex;
+    margin-bottom: 200px;
+}
+
+.dounyu {
+    font-family: "Noto Serif Japanese","Yu Mincho","YuMincho",serif;
+    margin-left: 100px;
+    font-size: 2.0rem;
+    margin-top: 200px;
+    margin-bottom: 300px;
+}
+
+.okou {
+    font-family: 'Sacramento', cursive;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    margin-left: 300px;
+    margin-top: 150px;
+}
+
+.okou1 {
+    font-family: "Noto Serif Japanese","Yu Mincho","YuMincho",serif;
+    font-size: 1.8rem;
+    width: 300px;
+    margin-left: 275px;
+}
+
+.hon-okou {
+    margin-left: 145px;
+    width: 700px;
+    height: 500px;
+}
+
+.shohin1{
+    display: flex;
+    margin-bottom: 400px;
+}
+
+.ku {
+    font-family: "Noto Serif Japanese","Yu Mincho","YuMincho",serif;
+    font-size: 1.8rem;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+.ku1 {
+    font-family: "Noto Serif Japanese","Yu Mincho","YuMincho",serif;
+    font-size: 1.0rem;
+    margin-top: 25px;
+    width: 300px;
+    margin-left: 80px;
+}
+
+.hon-cushion {
+    margin-left: 20px;
+    width: 700px;
+    height: 500px;
+}
+
+.shita{
+    margin-top: 100px;
+}
+/* 枕とお香を作ってみると */
+
+/* 〆 */
+.logo-myself {
+    font-family: "Noto Serif Japanese","Yu Mincho","YuMincho",serif;
+    font-size: 1.7rem;
+    margin-left: 100px;
+    background-color: cornsilk;
+    width: 620px;
+    border-radius: 10px;
+
+}
+
+.logo2 {
+    margin-top: 40px;
+    width: 400px;
+    height: 400px;
+    margin-left: 500px;
+}
+
+.setu5{
+    font-size: 1.2rem;
+    margin-left: 450px;
+    margin-top: -70px;
+}
+
+.setu51{
+    font-size: 1.2rem;
+    margin-left: 450px;
+    margin-top: -70px;
+    margin-bottom: 400px;
+}
+/* 〆 */
