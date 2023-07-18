@@ -1,0 +1,57 @@
+@charset "UTF-8";
+html {
+    font-size: 100%;
+}
+
+body {
+    background-image: url(../images/sugi.jpg);
+    background-size: cover;
+    height: auto;
+    color:lemonchiffon;
+    font-family: "Yu Mincho","YuMincho",serif;
+
+    
+}
+
+.head {
+    display: flex;
+    font-size: 3.3rem;
+    margin-top: 300px;
+    margin-left: 200px;
+
+}
+
+.sugi {
+    margin-top: -10px;
+}
+
+.span1 {
+    font-size: 7.0rem;
+}
+
+.kaku {
+    font-size: 1.1rem;
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+.prove {
+    margin-bottom: 30px;
+}
+
+
+.nav-button {
+    margin-top: 30px;
+    margin-left: 200px;
+    height: 45px;
+    width: 130px;
+    border-radius: 20px;
+    background-color:rgb(182, 123, 96);
+    opacity: 0.8;
+  }
+
+  .nav-button:hover {
+      background-color: sienna;
+      color:snow;
+  }
+  
