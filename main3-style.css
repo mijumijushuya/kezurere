@@ -1,0 +1,564 @@
+@charset "UTF-8";
+html {
+    font-size: 100%;
+}
+
+#village{
+    background-image: url(../images/moro.jpg);
+    background-size: 1300px;
+    background-position:center;
+    opacity: 0.9;
+    height: 250px;
+    margin-bottom: 48px;
+}
+
+body {
+    font-family: "Yu Gothic Medium","游ゴシック Medium",YuGothic,"游ゴシック体","ヒラギノ角ゴ Pro W3", sans-serif;
+    line-height: 1.7;
+    color:cornsilk;
+    background-color: mintcream;
+}
+
+.main {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+p .add2 {
+    background: linear-gradient(transparent 40%, rgb(255, 251, 0))
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 180px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color:white;
+    opacity: 0.6;
+}
+
+.main-nav {
+    display: flex;
+}
+
+.main-nav a{
+    color:white;
+}
+
+.main-nav a:hover {
+    color:mediumturquoise;
+}
+
+.main-nav li {
+    width: 70px;
+    margin-top: 17px;
+    font-weight: bold;
+    list-style: none;
+}
+
+#village .page-title{
+    text-align: center;
+    font-family: 'Philosopher',serif;
+    font-size: 5.0rem;
+    margin-top: -15px;
+}
+
+.wrapper .sub {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: -10px;
+}
+
+footer {
+    background: #432;
+    text-align: center;
+    padding: 26px 0;
+    margin-top: -40px;
+}
+
+footer p {
+    color: #fff;
+    font-size: 0.875rem;
+}
+
+article {
+    width: 74%;
+    order: 2;
+}
+
+aside {
+    width: 22%;
+    margin-left: -100px;
+    order: 3;
+}
+
+.news-contents {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    margin-top: -5px;
+    margin-left: 360px;
+    color: black;
+}
+
+.post-info {
+    position: relative;
+    padding-top: 4px;
+    margin-bottom: 40px;
+}
+
+.post-date{
+    background:rgb(206, 161, 85);
+    border-radius: 50% 70% 50% 80%;
+    color:honeydew;
+    width: 50px;
+    height: 50px;
+    font-size: 1.625rem;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    padding-top: 3px;
+    margin-top: 3px;
+}
+
+.post-title{
+    font-family: "Yu Mincho","YuMincho",serif;
+    font-size: 1.8rem;
+    font-weight: normal;
+    display: inline-block;
+    border-bottom: 3px rgba(224, 135, 0, 0.5) solid;
+}
+
+.post-title {
+    margin-left: 60px;
+}
+
+.post-info2 {
+    position: relative;
+    padding-top: 4px;
+    margin-bottom: 40px;
+}
+
+.post-date2{
+    background:rgb(206, 161, 85);
+    border-radius: 50% 70% 50% 80%;
+    color:honeydew;
+    width: 50px;
+    height: 50px;
+    font-size: 1.625rem;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    padding-top: 3px;
+    margin-top: 3px;
+}
+
+.post-title2 {
+    font-family: "Yu Mincho","YuMincho",serif;
+    font-size: 1.8rem;
+    font-weight: normal;
+    display: inline-block;
+    border-bottom: 3px rgba(224, 135, 0, 0.5) solid;
+}
+
+.post-title2 {
+    margin-left: 60px;
+}
+
+.post-info3 {
+    position: relative;
+    padding-top: 4px;
+    margin-bottom: 20px;
+}
+
+.post-date3 {
+    background:rgb(206, 161, 85);
+    border-radius: 50% 70% 50% 80%;
+    color:honeydew;
+    width: 50px;
+    height: 50px;
+    font-size: 1.625rem;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    padding-top: 3px;
+    margin-top: 3px;
+}
+
+.post-title3 {
+    font-family: "Yu Mincho","YuMincho",serif;
+    font-size: 1.8rem;
+    font-weight: normal;
+    display: inline-block;
+    border-bottom: 3px rgba(224, 135, 0, 0.5) solid;
+}
+
+.post-title3 {
+    margin-left: 60px;
+}
+
+.post-info4 {
+    position: relative;
+    padding-top: 4px;
+    margin-top: 15px;
+}
+
+.post-date4 {
+    background:rgb(206, 161, 85);
+    border-radius: 50% 70% 50% 80%;
+    color:honeydew;
+    width: 50px;
+    height: 50px;
+    font-size: 1.625rem;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    padding-top: 3px;
+    margin-top: 3px;
+}
+
+.post-title4 {
+    font-family: "Yu Mincho","YuMincho",serif;
+    font-size: 1.8rem;
+    font-weight: normal;
+    display: inline-block;
+    border-bottom: 3px rgba(224, 135, 0, 0.5) solid;
+}
+
+.post-title4 {
+    margin-left: 60px;
+}
+
+
+.bun {
+    margin-top: -25px;
+}
+
+.bun li {
+    font-size: 1.3rem;
+    margin-top: 20px;
+    margin-left: 150px;
+    
+
+}
+
+.bun li:nth-child(3) {
+    color: red;
+}
+
+.mes {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    background-color: rgb(226, 213, 195);
+    border-radius: 20%;
+    display: inline-block;
+}
+
+.container{
+    position: relative;
+    width: 300px;
+    max-width: 200%;
+    height: 100px;
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 134px;
+}
+
+.sushi {
+	position: absolute;
+	width: 100%;
+	opacity: 0;
+	animation: change-img-anim 40s infinite;
+}
+
+.sushi:nth-of-type(1) {
+	animation-delay: 0s;
+}
+.sushi:nth-of-type(2) {
+	animation-delay: 10s;
+}
+.sushi:nth-of-type(3) {
+	animation-delay: 20s;
+}
+.sushi:nth-of-type(4) {
+	animation-delay: 30s;
+}
+
+@keyframes change-img-anim {
+	0%{ opacity: 0;}
+	20%{ opacity: 1;}
+	30%{ opacity: 1;}
+	35%{ opacity: 0;}
+    70%{ opacity: 0;}
+}
+
+.kome {
+    font-size: 1.1rem;
+    background-color:rgb(179, 221, 179);
+    border-radius: 15%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.kome span {
+    color: rgb(2, 5, 179);
+}
+
+.ad {
+    order: 1;
+}
+.ad img {
+    width: 220px;
+    height: 600px;
+    margin-left: -200px;
+}
+
+.tori {
+    display: flex;
+}
+
+.haru {
+    width: 200px;
+    height: 200px;
+}
+
+.ki {
+    width: 200px;
+    height: 200px;
+}
+
+.kuzu {
+    display: flex;
+    margin-top: 15px;
+}
+
+.tori2 {
+    display: flex;
+    margin-top: 15px;
+}
+
+.kiki {
+    width: 200px;
+    height: 200px;
+}
+
+.maefuri {
+    margin-top: 10px;
+    font-size: 1.8rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: crimson;
+    margin-left: 115px;
+}
+
+video {
+    margin-left: 105px;
+    background-color:rgb(221, 193, 123);
+}
+
+.ki2{
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.setu {
+    text-align: center;
+    margin-left: -210px;
+    font-weight: bold;
+    color: rgb(119, 77, 0);
+}
+
+.ki3{
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+.ki4{
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+.point {
+    font-size: 1.6rem;
+    font-family: serif;
+    color: lightseagreen;
+    display: inline-block;
+    border-bottom: 2px lightseagreen solid;
+}
+
+.point2 {
+    margin-left: 100px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.sub-title {
+    background-color:olivedrab;
+    opacity: 0.8;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.sub-title1 {
+    background-color:rgb(141, 94, 60);
+    opacity: 0.8;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+aside p{
+    padding: 12px 10px;
+    color:black;
+}
+
+p .add{
+    border-bottom: 1px rgb(16, 140, 145) dashed;
+}
+
+.sub-menu{
+    margin-bottom: 60px;
+    list-style: none;
+}
+.sub-menu li{
+    border-bottom: 1px rgb(112, 60, 0) dashed;
+}
+.sub-menu a {
+    color: #432;
+    padding: 10px;
+    display: block;
+}
+.sub-menu a:hover {
+    color:　#0bd;
+}
+
+
+/* ここがポイント！ */
+
+.pointdayo{
+    display: flex;
+    margin-top: 15px;
+}
+
+.point1da {
+    color: lightseagreen;
+    font-family: "Yu Mincho","YuMincho",serif;
+    font-size: 1.7rem;
+    margin-left: 130px;
+    display: inline-block;
+    border-bottom: 2px lightseagreen solid;
+    margin-left: -80px;
+    margin-top: 10px;
+    
+}
+
+.point14 {
+    display: flex;
+}
+
+.kaima {
+    width: 350px;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: -70px;
+    border-radius: 10px;
+}
+
+.point14 .bunn1 {
+    margin-top: 25px;
+    font-size: 1.3rem;
+    font-family: "Yu Mincho","YuMincho",serif;
+    margin-left: 40px;
+}
+
+.ki11 {
+    margin-left: 50px;
+}
+
+/* ここ売ります！ */
+
+.point15{
+    margin-bottom: 50px;
+}
+.uriko {
+    font-size: 1.5rem;
+    margin-left: -170px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    border-bottom: 2px rgb(112, 60, 0) solid;
+    background-color: peru;
+    display: inline-block;
+    border-radius: 10px;
+    font-family: "Yu Mincho","YuMincho",serif;
+}
+
+.riko {
+    font-size: 1.2rem;
+    margin-left: -80px;
+}
+
+.riko1 {
+    font-size: 1.5rem;
+    background-color: rgb(101, 151, 201);
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: -80px;
+}
+
+.fire{
+    margin-top: 25px;
+    margin-left: 100px;
+}
+
+/* ボタン */
+
+a.btn_13 {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+	text-align: center;
+	text-decoration: none;
+	width: 270px;
+	margin: auto;
+	padding: 1rem 4rem;
+	font-weight: bold;
+	background:burlywood;
+	color:black;
+	border-radius: 100vh;
+	position: relative;
+	transition: 0.5s;
+    margin-left: 600px;
+}
+a.btn_13::before {
+	content: '';
+	position: absolute;
+	top: calc(50% - 2px);
+	right: 1em;
+	transform: translateY(calc(-50% - 2px)) rotate(45deg);
+	width: 10px;
+	height: 1px;
+	background: black;
+}
+a.btn_13::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 1em;
+	transform: translateY(-50%);
+	width: 50px;
+	height: 1px;
+	background-color: black;
+}
+a.btn_13:hover {
+	background: #a16741;
+}
